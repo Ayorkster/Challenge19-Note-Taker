@@ -1,7 +1,7 @@
 # Challenge19-Text-editor
   ## Table of Contents
   - [Description](#description)
-  - [Deployment Links] (#deployment links)
+  - [Deployment Links] (#deployment-links)
     
 
   

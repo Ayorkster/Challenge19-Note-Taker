@@ -24,7 +24,17 @@ warmStrategyCache({
   strategy: pageCache,
 });
 
-registerRoute(({ request }) => request.mode === 'navigate', pageCache);
-
-// TODO: Implement asset caching
+registerRoute(
+  // Match assets based on file extensions or other criteria
+  ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
+  // Apply CacheFirst strategy
+  new CacheFirst({
+    cacheName: 'assets-cache', // Name for the cache
+    plugins: [
+      new CacheableResponsePlugin({
+        statuses: [0, 200],
+      }),
+    ],
+  })
+);
 registerRoute();

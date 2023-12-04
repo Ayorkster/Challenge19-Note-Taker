@@ -1,7 +1,7 @@
 # Challenge19-Text-editor
   ## Table of Contents
   - [Description](#description)
-  - [Deployment Links] (#deployment-links)
+  - [Deployment] (#deployment)
     
 
   
@@ -14,7 +14,7 @@ This is an installable PWA text editor that can be used without an internet conn
 
 
   
-  ## Deployment Links
+  ## Deployment
   [Deployment](https://ancient-refuge-41003-0e6c821ba26f.herokuapp.com/)https://ancient-refuge-41003-0e6c821ba26f.herokuapp.com/)
 
 Starter code for this project was provided by University of Denver FSF bootcamp.
